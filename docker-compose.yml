@@ -1,0 +1,50 @@
+version: "3.8"
+
+services:
+  php-apache:
+    image: php:8.1-apache
+    container_name: php-apache
+    volumes:
+      - ./homepage:/var/www/html   # Mount your project files
+    ports:
+      - "8080:80"                  # Access app at http://localhost:8080
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+  db:
+    image: mysql:5.7
+    container_name: mysql-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: mydatabase
+      MYSQL_USER: user
+      MYSQL_PASSWORD: userpass
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - app-network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    restart: always
+    environment:
+      PMA_HOST: db
+      PMA_USER: user
+      PMA_PASSWORD: userpass
+    ports:
+      - "8081:80"                  # Access phpMyAdmin at http://localhost:8081
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+volumes:
+  db_data:
+
+networks:
+  app-network:
+    driver: bridge
