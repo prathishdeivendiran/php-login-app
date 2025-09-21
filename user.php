@@ -281,7 +281,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit_feedback'])) {
     }
 
     .ai-agent {
-      width: 100px;
+      width: 150px;
       height: 50px;
       margin: 10px;
       background: linear-gradient(-45deg, #9f0e76ff, #a0f6b5ff, #7958f2ff, #5c5c5cff);
@@ -290,7 +290,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit_feedback'])) {
       border-top-right-radius: 15px;
       border-bottom-left-radius: 15px;
       border-top-left-radius: 3px;
-      border-bottom-right-radius: 3px;
+      border-bottom-right-radius: 15px;
+      border-width:5px;
 
     }
   </style>

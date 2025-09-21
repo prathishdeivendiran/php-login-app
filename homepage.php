@@ -177,7 +177,7 @@ include("connect.php");
 
                     <div class="box">
                         <div class="image">
-                            <img src="images/Custom 1.jpg" alt="">
+                            <img src="https://img.freepik.com/premium-vector/illustration-person-going-holiday-flat-minimalist-design-concept-travel-lifestyle_1140815-198.jpg" alt="">
                         </div>
                         <div class="content">
                             <h3>🌿 Custom Package</h3>
@@ -191,7 +191,7 @@ include("connect.php");
 
                     <div class="box">
                         <div class="image">
-                            <img src="images/" alt="">
+                            <img src="https://img.freepik.com/free-vector/flat-design-travel-background_23-2149401275.jpg?semt=ais_incoming&w=740&q=80" alt="">
                         </div>
                         <div class="content">
                             <h3>🌄 Basic Package</h3>
@@ -206,7 +206,7 @@ include("connect.php");
 
                     <div class="box">
                         <div class="image">
-                            <img src="images/" alt="">
+                            <img src="https://img.freepik.com/free-vector/hand-drawn-sustainable-travel-illustration_52683-148456.jpg" alt="">
                         </div>
                         <div class="content">
                             <h3>🏞️ Standard Package</h3>
@@ -221,7 +221,7 @@ include("connect.php");
                     
                     <div class="box">
                         <div class="image">
-                            <img src="images/Premium 1.jpg" alt="">
+                            <img src="https://img.freepik.com/premium-vector/travel-passport-concept-illustration_114360-26313.jpg?semt=ais_incoming&w=740&q=80" alt="">
                         </div>
                         <div class="content">
                             <h3>🏖️ Premium Package</h3>
@@ -243,38 +243,40 @@ include("connect.php");
                     <div class="box">
                         <img src="images/image 15.jpg" alt="">
                         <h3>Complete Guide</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
-                    </div>
+                        
+                        <div class='box1'>
+                        <p>Explore our complete travel guides with detailed itineraries, 
+                         must-visit spots, local tips, and travel hacks to make your journey smooth and memorable.</p>
+                        </div>
+
+                        </div>
 
                     <div class="box">
                         <img src="images/image 16.jpg" alt="">
                         <h3>Custom Package</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+
+                        <div class='box1'>
+                        <p>Design your dream trip with our flexible custom packages tailored to your preferences, budget, and schedule for a truly personalized experience.</p>
+                        </div>
                     </div>
 
                     <div class="box">
                         <img src="images/image 17.jpg" alt="">
                         <h3>Solo Trip</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                        <div class='box1'>
+                        <p>Embark on a solo adventure and discover new destinations at your own pace, making unforgettable memories and finding yourself along the way.</p>
+                        </div>
                     </div>
 
                     <div class="box">
                         <img src="images/image 18.jpg" alt="">
                         <h3>Couple Trip</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                        <div class='box1'>
+                        <p>Create romantic getaways with curated experiences perfect for couples, from cozy stays to adventurous activities and scenic spots.</p>
+                        <div>
                     </div>
 
-                    <div class="box">
-                        <img src="images/image 19.jpg" alt="">
-                        <h3>College IV</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
-                    </div>
-
-                    <div class="box">
-                        <img src="images/image 20.jpg" alt="">
-                        <h3>Family Trip</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
-                    </div>
+                    
                 </div>
          </section>
          <!--Services section ends-->
@@ -285,46 +287,54 @@ include("connect.php");
                 <div class="swiper blogs-slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide slide">
-                            <img src="images/image 27.jpg" alt="">
+                            <div class="img-container">
+                            <img src="https://img.freepik.com/premium-vector/chennai-india-city-skyline-with-color-landmarks-isolated-white_119523-12674.jpg?semt=ais_incoming&w=740&q=80" alt="Image" class='bimg'/>
+                            </div>
                             <div class="icons">
                                 <a href="#" class="fas fa-calendar"> 21st March, 2025 </a>
                                 <a href="#" class="fas fa-user"> By Admin </a>
                             </div>
-                            <h3>Title 1</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                            <h3>chennai visit</h3>
+                            <p>"Our Chennai visit was highly productive, and we were impressed by the organization and professionalism of the team."</p>
                             <a href="Blog 1.php" class="btn">Read More</a>
                         </div>
 
                         <div class="swiper-slide slide">
-                            <img src="images/image 28.jpg" alt="">
+                            <div class="img-container">
+                            <img src="https://img.freepik.com/premium-psd/andaman-nicobar-islands-indian-illustration_1279562-9176.jpg" alt="Image" class='bimg'/>
+                            </div>
                             <div class="icons">
                                 <a href="#" class="fas fa-calendar"> 21st March, 2025 </a>
                                 <a href="#" class="fas fa-user"> By Admin </a>
                             </div>
-                            <h3>Title 2</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                            <h3>Client Experience: Andaman & Nicobar Getaway</h3>
+                            <p>"Our client thoroughly enjoyed the getaway to Andaman & Nicobar and appreciated the seamless arrangements and memorable experiences."</p>
                             <a href="Blog 2.php" class="btn">Read More</a>
                         </div>
 
                         <div class="swiper-slide slide">
-                            <img src="images/image 29.jpg" alt="">
+                            <div class="img-container">
+                            <img src="https://img.freepik.com/free-photo/tropical-travel-resort-perfect-rest_1232-4574.jpg?semt=ais_incoming&w=740&q=80" alt="Image" class='bimg'/>
+                            </div>
                             <div class="icons">
                                 <a href="#" class="fas fa-calendar"> 21st March, 2025 </a>
                                 <a href="#" class="fas fa-user"> By Admin </a>
                             </div>
-                            <h3>Title 3</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                            <h3>Lakshadweep – Secluded Paradise, Coral Wonders & Island Elegance</h3>
+                            <p>Our client had an unforgettable experience in Lakshadweep. From the pristine beaches to the vibrant coral reefs, every moment was filled with tranquility and natural beauty. The seamless arrangements, luxurious stays, and personalized services made the getaway truly exceptional.</p>
                             <a href="Blog 3.php" class="btn">Read More</a>
                         </div>
                         
                         <div class="swiper-slide slide">
-                            <img src="images/image 30.jpg" alt="">
+                           <div class="img-container">
+                            <img src="https://img.freepik.com/premium-vector/indian-temple-vector-illustration-watercolor-style_1168005-17049.jpg?semt=ais_hybrid&w=740&q=80" alt="Image" class='bimg'/>
+                            </div>
                             <div class="icons">
                                 <a href="#" class="fas fa-calendar"> 21st March, 2025 </a>
                                 <a href="#" class="fas fa-user"> By Admin </a>
                             </div>
-                            <h3>Title 4</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                            <h3>Cultural Escape to Trichy – Temples, Traditions & Tranquility:</h3>
+                            <p>Our client thoroughly enjoyed the cultural journey in Trichy. Exploring the majestic temples, experiencing local traditions, and soaking in the serene atmosphere made the visit truly memorable.</p>
                             <a href="Blog 4.php" class="btn">Read More</a>
                         </div>
                     </div>
@@ -505,6 +515,24 @@ include("connect.php");
          <style>
             /* Fixed CSS link syntax */
             /* Improved category section styling */
+            .box1{
+                width:180px;
+            }
+
+           .img-container {
+                 width: 100%;       /* full width of parent */
+                 height: 400px;     /* desired height */
+                 overflow: hidden;  /* hide overflow if image is larger */
+                 position: relative;
+                        }
+
+            .bimg {
+                width: 20px;
+                height: 30px;
+                    /* cover the container */
+               
+                }
+
             .category {
                 padding: 5rem 9%;
                 background: #f9f9f9;

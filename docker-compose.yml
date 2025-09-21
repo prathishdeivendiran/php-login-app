@@ -2,12 +2,14 @@ version: "3.8"
 
 services:
   php-apache:
-    image: php:8.1-apache
+    build:
+      context: .
+      dockerfile: Dockerfile-php
     container_name: php-apache
     volumes:
-      - ./homepage:/var/www/html   # Mount your project files
+      - ./:/var/www/html   # Mount your project files
     ports:
-      - "8080:80"                  # Access app at http://localhost:8080
+      - "8080:80"          # Access app at http://localhost:8080
     depends_on:
       - db
     networks:
@@ -36,7 +38,7 @@ services:
       PMA_USER: user
       PMA_PASSWORD: userpass
     ports:
-      - "8081:80"                  # Access phpMyAdmin at http://localhost:8081
+      - "8081:80"          # Access phpMyAdmin at http://localhost:8081
     depends_on:
       - db
     networks:
